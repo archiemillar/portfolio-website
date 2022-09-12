@@ -1,0 +1,156 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+/* Headings */
+
+.big-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+    padding: 5% 5%;
+}
+
+/* Sections */
+
+.colored-section {
+    background-color: #112D4E;
+    color: #F9F7F7;
+}
+
+.white-section {
+    background-color: #F9F7F7;
+    color: #112D4E;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 3rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/* Introduction Section */
+
+#introduction {
+    background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), var(--background-url);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top-left;
+}
+
+#introduction .container-fluid {
+    padding: 2.5% 5%;
+}
+
+.my-name {
+    margin-bottom: 10px;
+    transform: translateY(-100vh);
+    animation: fall 1.5s forwards;
+}
+.my-title {
+    transform: translateY(-100vh);
+    animation: fall 1s forwards;
+}
+@keyframes fall{
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.avatar {
+    width: 20%;
+    margin-top: 20px;
+}
+@media (max-width: 1024px) {
+
+    .avatar {
+        width: 25%;
+    }
+}
+@media (max-width: 512px) {
+
+    .avatar {
+        width: 45%;
+    }
+}
+
+/* Portfolio Section */
+
+.port-column {
+    padding: 3% 2%;
+}
+
+/* Contact Me */
+
+.contact-form {
+    padding-top: 1rem;
+}
+
+.form-group {
+    text-align: left;
+    padding: 0 0 1rem;
+}
+
+.control-label {
+    font-weight: 500;
+    font-size: 1rem;
+    padding-bottom: 0.20rem;
+}
+
+.form-control {
+    font-size: 0.75rem;
+}
+
+textarea {
+    height: 200px;
+}
+
+.help-block {
+    color: red;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+
+.message-sent {
+    text-align: left;
+    font-style: italic;
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: green;
+}
+
+/* Footer Section */
+
+.footer-icon {
+    margin: 20px 10px;
+    color: #3F72AF;
+    font-size: 1.5rem;
+}
+
+.footer-icon:hover {
+    color: #112D4E;
+}
