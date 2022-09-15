@@ -30,11 +30,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .colored-section {
     background-color: #112D4E;
-    color: #F9F7F7;
+    color: #fff;
 }
 
 .white-section {
-    background-color: #F9F7F7;
+    background-color: #fff;
     color: #112D4E;
 }
 
@@ -102,6 +102,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .port-column {
     padding: 3% 2%;
+}
+
+.card-img-top {
+    height: 200px;
 }
 
 /* Contact Me */
